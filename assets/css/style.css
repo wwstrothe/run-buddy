@@ -66,3 +66,23 @@ footer div {
 footer a {
     color: #024e76
 }
+/* apply style to every <section> */
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: #024e76 3px solid;
+}
