@@ -2,12 +2,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* apply styles to <body> */
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: tomato;
-    color: #39e6b2;
+    background-color: none;
+    color: #39a6b2;
 }
 
 /* apply styles to <header> */
@@ -21,6 +22,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 /* apply style to only <a> in unorganized item list */
 header a {
@@ -32,21 +34,36 @@ header nav {
     float: right;
     margin: 7px 0;
 }
-/* turns list into line*/
+/* apply style to all <li> in <nav> */
 header nav ul li {
     display: inline;
 }
-/* apply more in depth style to <li><a>*/
+/* apply style to all <a> in <li> */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138
-    margin: 0;
+/* apply style to <footer> */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/* apply style to individual footer <h2> */
+footer h2 {
     display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/* apply style to footer <div> */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+/* apply style to footer <a> */
+footer a {
+    color: #024e76
 }
