@@ -1,14 +1,14 @@
 # Run Buddy, Inc.
 
 ## Purpose 
-A websire that offers fitness training services.
+A website that offers fitness training services.
 
 ## Built with
 * HTML
 * CSS
 
 ## Installation
-Downloans and enjoy!
+Download and enjoy!
 
 ## Website
 https://wwstrothe.github.io/run-buddy/
