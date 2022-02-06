@@ -12,3 +12,5 @@ https://wwstrothe.github.io/run-buddy/
 
 ##
 Made with ❤️ by William Strothe
+
+### ©️2019 Run Buddy, Inc
